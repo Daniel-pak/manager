@@ -9,7 +9,7 @@ Manager is an application that allows you to easily syndicate your employee's wo
 
 Manager is currently extended with the following plugins.
 
-| Plugin |
+| Plugins |
 | ------ |
 | React-Redux |
 | Redux |
