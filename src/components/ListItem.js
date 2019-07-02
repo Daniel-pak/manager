@@ -14,7 +14,7 @@ export default class ListItem extends Component {
                 <View>
                     <CardSection>
                         <Text style={styles.titleStyle}>{name}</Text>
-                        <Text style={styles.titleStyle}>{phone}</Text>
+                        <Text style={styles.phoneStyle}>{phone}</Text>
                     </CardSection>
                 </View>
             </TouchableWithoutFeedback>
@@ -24,7 +24,12 @@ export default class ListItem extends Component {
  
 const styles = {
     titleStyle: {
+        fontSize: 24,
+        paddingLeft: 15,
+    },
+    phoneStyle: {
         fontSize: 18,
-        paddingLeft: 15
+        paddingLeft: 20,
+        color: '#a9a9a9'
     }
 };
