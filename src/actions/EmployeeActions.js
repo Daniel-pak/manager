@@ -36,3 +36,7 @@ export const employeesFetch = () => {
       });
   };
 };
+
+export const employeeSave = ({ name, phone, shift, uid }) => {
+    
+};
