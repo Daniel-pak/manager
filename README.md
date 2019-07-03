@@ -9,8 +9,11 @@ Manager is an application that allows you to easily syndicate your employee's wo
 
 Manager is currently extended with the following plugins.
 
-| Plugins |
+| Dependencies |
 | ------ |
 | React-Redux |
 | Redux |
 | Firebase |
+| Redux-thunk |
+| React-native-router-flux |
+| Lodash |
